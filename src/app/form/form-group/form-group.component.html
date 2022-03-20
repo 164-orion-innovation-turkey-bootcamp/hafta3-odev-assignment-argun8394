@@ -24,5 +24,9 @@
 
   </div>
   <button type="submit" (click)="update()" class="btn btn-primary  p-2 m-2 border-round">Submit</button>
+  <pre>value : {{productForm.value | json }}</pre>
+  <pre>valid : {{productForm.valid}}</pre>
+  <pre>touched : {{productForm.touched}}</pre>
+  <!-- <pre>saubmitted : {{productForm.submit}}</pre> -->
 </form>
 

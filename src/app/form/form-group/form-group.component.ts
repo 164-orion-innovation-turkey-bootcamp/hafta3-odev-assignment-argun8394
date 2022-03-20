@@ -28,9 +28,11 @@ export class FormGroupComponent  {
     return this.productForm.get("name")
   }
 
-  get description() {
+  get description() {//get() metodu ile formControle etkileşimi sağla
     return this.productForm.get("description")
   }
+
+
 
   onSubmit (){
    console.log(this.productForm.value)//burda product form nesnesinin value larını yazdırmış olduk
